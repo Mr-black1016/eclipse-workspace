@@ -1,0 +1,23 @@
+package CollectionProgramTask;
+
+import java.util.ArrayList;
+
+public class UpdateSpecificElementArraylist {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList<String>arrayList= new ArrayList<String>();
+		arrayList.add("google");
+		arrayList.add("bing");
+		arrayList.add("duckduckgo");
+		System.out.println("before update");
+		System.out.println();
+		System.out.println(arrayList);
+		System.out.println("after update the specific element in the arraylist:");
+		arrayList.set(1,"whatsapp");
+		System.out.println();
+		System.out.println(arrayList);
+		
+	}
+
+}

@@ -1,0 +1,36 @@
+import java.util.Collections;
+import java.util.Scanner;
+
+public class UpdateSpecficStudentDetails {
+
+	public void updatestudentdetails() {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter the student Regno:");
+		int regnum= in.nextInt();
+		for(StudentPojo pojo : Student1.studentdata ) {
+			if(regnum == pojo.getRegno()) {
+				System.out.println("enter the student details");
+				System.out.println();
+				System.out.println("enter the regno:");
+				long regno = in.nextLong();
+				System.out.println("enter the name:");
+				in.nextLine();
+				String name= in.nextLine();
+				System.out.println("enter the age:");
+				int age = in.nextInt();
+				System.out.println("enter the email");
+				in.nextLine();
+				String email = in.nextLine();
+
+				pojo.setRegno(regno,name,age,email);
+			}
+		}
+	}
+
+	public void shuffleArrayList() {
+		// TODO Auto-generated method stub
+		Collections.shuffle(Student1.studentdata);
+	}
+
+}

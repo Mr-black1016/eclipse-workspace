@@ -1,0 +1,22 @@
+package StudyMaterials;
+
+import java.util.Arrays;
+
+public class ArraysFun {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String[] names= {"karuppu","karthi","kanna","robbin","kesavan"};
+		for(String i: names)
+		{
+			System.out.println(i);
+		}
+		Arrays.sort(names);
+		System.out.println("after sorting:");
+		for(String i: names)
+		{
+			System.out.println(i);
+		}
+	}
+
+}

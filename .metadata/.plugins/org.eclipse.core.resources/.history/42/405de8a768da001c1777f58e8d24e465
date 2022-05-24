@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class UpdateSpecficStudentDetails {
+
+	public void updatestudentdetails() {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println("enter the student details");
+		System.out.println();
+		System.out.println("enter the regno:");
+		long regno = in.nextLong();
+		System.out.println("enter the name:");
+		in.nextLine();
+		String name= in.nextLine();
+		System.out.println("enter the age:");
+		int age = in.nextInt();
+		System.out.println("enter the email");
+		in.nextLine();
+		String email = in.nextLine();
+	}
+
+}

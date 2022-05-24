@@ -1,0 +1,15 @@
+package CollectionProgramTask;
+
+import java.util.ArrayList;
+
+public class StudentNameSort {
+	public static void main(String[] args) {
+		StudentDetail s1 = new StudentDetail("karuppu",20,"karuppu1016@gmail.com");
+		
+		
+	}
+    ArrayList<StudentDetail> arrayList = new ArrayList<StudentDetail>();
+    arrayList.add(s1);
+    
+    
+}

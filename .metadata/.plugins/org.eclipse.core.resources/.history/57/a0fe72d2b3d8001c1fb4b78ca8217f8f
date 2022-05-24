@@ -1,0 +1,25 @@
+package CollectionProgramTask;
+
+import java.util.ArrayList;
+
+public class StudentDetails {
+	 class student {
+		 int regno;
+		 String name;
+		 long mobno;
+				 
+		 student(int regno,String name,long mobno){
+			 this.regno=regno;
+			 this.name=name;
+			 this.mobno=mobno;
+		 }
+
+	}
+
+	public static void main(String[] args) {
+	    student s1 = new student(101,"karuppu",1234567890);
+	    ArrayList<student> arrayList = new ArrayList<student>();
+	    arrayList.add(s1);
+	}
+
+}

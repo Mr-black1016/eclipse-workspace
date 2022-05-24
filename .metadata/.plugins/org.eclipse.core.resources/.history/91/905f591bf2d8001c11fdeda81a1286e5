@@ -1,0 +1,32 @@
+package CollectionProgramTask;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+
+public class StudentNameSort {
+	public static void main(String[] args) {
+		StudentDetail stud1 = new StudentDetail("karuppu",20,"karuppu1016@gmail.com");
+		StudentDetail stud2 = new StudentDetail("kanna",20,"kanna@gmail.com");
+		StudentDetail stud3 = new StudentDetail("robbin",60,"robbin@gmail.com");
+		StudentDetail stud4 = new StudentDetail("dheena",80,"dheena@gmail.com");
+		
+		
+		  ArrayList<StudentDetail> array = new ArrayList<StudentDetail>();
+		  array.add(stud1);
+		  array.add(stud2);
+		  array.add(stud3);
+		  array.add(stud4);
+		  Iterator iterator = array.iterator();
+		  while(iterator.hasNext()) {
+			  StudentDetail str = (StudentDetail)iterator.next();
+			  System.out.println("Name:"+str.name+"age:"+str.age+"email:"+str.email);
+		};
+		  
+		  
+		  
+		  
+	}
+  
+    
+    
+}

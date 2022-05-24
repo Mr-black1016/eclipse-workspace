@@ -1,0 +1,14 @@
+package CollectionProgramTask;
+
+public class StudentDetail {
+	String name;
+	int age;
+	String email;
+	public StudentDetail(String name,int age,String email) {
+		// TODO Auto-generated constructor stub
+		this.name=name;
+		this.age=age;
+		this.email=email;
+	}
+
+}

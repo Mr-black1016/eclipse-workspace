@@ -1,0 +1,50 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Student1 {
+	protected long regno;
+	protected String name;
+	protected int age;
+	protected String email;
+	protected static ArrayList<StudentPojo> studentdata = new ArrayList<StudentPojo>();
+
+	public void student1() {
+		Scanner in = new Scanner(System.in);
+		System.out.println("enter the student details");
+		System.out.println();
+		System.out.println("enter the regno:");
+		long regno = in.nextLong();
+		System.out.println("enter the name:");
+		in.nextLine();
+		String name= in.nextLine();
+		System.out.println("enter the age:");
+		int age = in.nextInt();
+		System.out.println("enter the email");
+		in.nextLine();
+		String email = in.nextLine();
+//	
+		StudentPojo pojo = new StudentPojo();
+		pojo.setRegno(regno);
+		pojo.setName(name);
+		pojo.setAge(age);
+		pojo.setEmail(email);
+		studentdata.add(pojo);
+		
+		
+	}
+	
+}
+
+//
+//System.out.println(" ");
+//StudentPojo pojo1 = new StudentPojo();
+//pojo1.setRegno(regno);
+//pojo1.setName(name);
+//pojo1.setAge(age);
+//pojo1.setEmail(email);
+//
+//System.out.println("private reference value:");
+//System.out.println("                "+pojo1.getRegno());
+//System.out.println("                "+pojo1.getName());
+//System.out.println("                "+pojo1.getAge());
+//System.out.println("                "+pojo1.getEmail());

@@ -1,0 +1,18 @@
+package StudyMaterials;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class SplitProgram {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String string = scanner.nextLine();
+		String NewValue[]=string.split(" ");
+		ArrayList<String> arrayList = new ArrayList<String>();
+		for(String i : arrayList) {
+			System.out.println(i);
+		}
+	}
+
+}

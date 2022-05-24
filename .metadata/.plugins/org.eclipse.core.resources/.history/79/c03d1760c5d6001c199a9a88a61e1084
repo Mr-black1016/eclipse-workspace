@@ -1,0 +1,7 @@
+package StudyMaterials;
+
+import java.util.Comparator;
+
+public class ComparaetorDemo implements Comparator<T> {
+
+}

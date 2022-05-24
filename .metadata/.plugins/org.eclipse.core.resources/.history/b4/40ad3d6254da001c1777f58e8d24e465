@@ -1,0 +1,40 @@
+import java.util.Scanner;
+
+public class PojoUsingList {
+	private static void flowManger() {
+		boolean isExit=true;
+		while(isExit) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.println("enter the regno:");
+		long regno = in.nextLong();
+		System.out.println("enter the name:");
+		String name= in.nextLine();
+		System.out.println("enter the age:");
+		int age = in.nextInt();
+		System.out.println("enter the email");
+		String email = in.nextLine();
+		
+		System.out.println(" ");
+		StudentPojo pojo1 = new StudentPojo();
+		pojo1.setRegno(regno);
+		pojo1.setName(name);
+		pojo1.setAge(age);
+		pojo1.setEmail(email);
+		
+		System.out.println("private reference value:");
+		System.out.println("                "+pojo1.getRegno());
+		System.out.println("                "+pojo1.getName());
+		System.out.println("                "+pojo1.getAge());
+		System.out.println("                "+pojo1.getEmail());
+	}
+}
+		
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		PojoUsingList.flowManger();
+	}
+
+	
+}

@@ -1,0 +1,13 @@
+package CollectionProgramTask;
+
+public class updatestudent {
+	String name;
+	int age;
+	long mobno;
+	public updatestudent(String name,int age,long mobno) {
+		// TODO Auto-generated constructor stub
+		this.name=name;
+		this.age=age;
+		this.mobno=mobno;
+	}
+}

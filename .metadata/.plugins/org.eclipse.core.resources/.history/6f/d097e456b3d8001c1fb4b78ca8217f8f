@@ -1,0 +1,15 @@
+package CollectionProgramTask;
+
+import java.util.ArrayList;
+
+public class StudentDetails {
+	student()
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	    student s1= new student(101,"karuppu",1234567890,karuppu@gmail.com);
+	    ArrayList<s1>arrayList = new ArrayList<s1>();
+	}
+
+}
