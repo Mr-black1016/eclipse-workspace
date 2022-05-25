@@ -1,0 +1,10 @@
+package HashMapAssignment;
+
+public class ProgramStart {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

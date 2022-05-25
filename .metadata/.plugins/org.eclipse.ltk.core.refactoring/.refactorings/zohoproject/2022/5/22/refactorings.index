@@ -1,2 +1,36 @@
 1653309486060	Delete element
 1653381914775	Delete element
+1653395647260	Rename type 'PojoUsingList'
+1653395690896	Rename type 'Student1'
+1653395731263	Rename type 'StudentDetails1'
+1653457409818	Delete element
+1653457498017	Copy compilation unit
+1653457524652	Copy compilation unit
+1653457533867	Copy compilation unit
+1653457541520	Copy compilation unit
+1653457547621	Copy compilation unit
+1653457556033	Copy compilation unit
+1653468182847	Rename method 'copyArrayList'
+1653468618721	Rename method 'shuffleArrayList'
+1653468918158	Rename method 'compareArrayList'
+1653468942485	Rename method 'SwapToArrayList'
+1653468956042	Rename method 'JoinTwoArrayList'
+1653468974553	Rename method 'CloneArrayList'
+1653469006227	Rename method 'EmptyAarrayList'
+1653469022162	Rename method 'ArrayListEmptyOrNot'
+1653469283641	Copy compilation unit
+1653469296002	Copy compilation unit
+1653469306926	Copy compilation unit
+1653469317408	Copy compilation unit
+1653469327101	Copy compilation unit
+1653469336638	Copy compilation unit
+1653471773048	Rename method 'copyArrayList'
+1653471789332	Rename method 'shuffleArrayList'
+1653471810313	Rename method 'reverseArrayList'
+1653471826168	Rename method 'compareArrayList'
+1653471842125	Rename method 'SwapToArrayList'
+1653471903072	Rename method 'JoinTwoArrayList'
+1653471941203	Rename method 'CloneArrayList'
+1653471953443	Rename method 'EmptyAarrayList'
+1653471967685	Rename method 'ArrayListEmptyOrNot'
+1653472010617	Rename method 'IncreaseSizeArrayList'
